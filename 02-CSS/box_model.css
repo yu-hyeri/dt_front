@@ -1,0 +1,35 @@
+ .box {
+    width: auto;
+    height: 200px;
+    background-color: orange;
+}
+
+.html {
+    display: inline-block;
+    width: 200px;
+    height: 100px;
+    background-color: lightblue;
+}
+.css {
+    display: inline-block;
+    width: 200px;
+    height: 100px;
+    background-color: green;
+}
+.java {
+    display: inline-block;
+    width: 200px;
+    height: 100px;
+    background-color: red;
+}
+
+.sesac {
+    display: inline-block;
+    color: white;
+    background-color: rgb(21, 0, 255);
+    width: calc(300px - 100px); /* = 200px */
+    height: 200px;
+    text-align: center;
+    font-size:x-large;
+    line-height: 200px;
+  }
