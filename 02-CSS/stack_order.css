@@ -1,0 +1,38 @@
+div{
+    width: 100px;
+    height: 100px;
+    font-weight: bold;
+    position: absolute;
+}
+
+.div1 {
+    top: 100px;
+    left: 100px;
+    background-color: aqua;
+    
+}
+.div2 {
+    top: 140px;
+    left: 140px;
+    background-color: rgb(187, 0, 255);
+   
+}
+.div3 {
+    top: 180px;
+    left: 180px;
+    background-color: rgb(43, 0, 255);
+    z-index: 14;
+}
+.div4 {
+    top: 220px;
+    left: 220px;
+    background-color: rgb(0, 255, 26);
+}
+.div5 {
+    top: 260px;
+    left: 260px;
+    background-color: rgb(255, 0, 157);
+}
+
+
+
