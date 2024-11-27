@@ -1,0 +1,212 @@
+body {
+    /* background-image bg.jpg 되도록 */
+    /* body- 수정하지 않아도 됩니다. */
+    background: linear-gradient(40deg,lightgreen, lightblue);
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    
+  }
+  
+  .container {
+    position: relative;
+    display: flex;
+    justify-content: center; /* 수평 중앙 정렬 */
+    align-items: center;  /* 세로 중앙 정렬 */
+    height: 70vh;
+  
+  }
+  
+  .container .heroes {
+    display: flex;
+    flex-wrap: wrap; /* 여러 줄로 배치 */
+    justify-content: center; /* 가로 중앙 정렬 */
+    gap: 10px; /* 아이템 간 간격 */
+    width: 900px; /* 컨테이너 최대 너비 설정 */
+    }
+  
+  .container .heroes .hero { 
+    width: 100px;
+    height: 100px;
+    background-color: rgb(181, 220, 248);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: skewX(-10deg);
+    border-radius: 10px;
+    border-style:solid;
+    border-color: white;
+  }
+  
+  .container .heroes .hero:hover {
+    background-color: rgb(230, 251, 167);
+    transform: scale(1.2) skewX(-10deg);
+    z-index: 10;
+    transition: 1s;
+    
+    
+    
+  }
+  
+  .container .heroes .hero .image {
+    width: 120px;
+    height: 100px;
+    background-size:cover; /* 이미지 크기를 조정 */
+    background-repeat: no-repeat; /* 반복 제거 */
+    background-position: center; /* 이미지 중앙 정렬 */
+  }
+  
+.logo {
+  position: fixed;
+  left:800px;
+
+}
+.logo img {
+  width: 300px; /* 로고의 가로 크기 */
+  height: auto; /* 비율 유지 */
+  max-width: 100%; /* 부모 요소 크기를 넘지 않도록 제한 */
+}
+
+  
+
+
+  
+  /* 사진 넣기 작업 */
+  /* 사진이 해당 경로에 없다면 경로 수정해주세요. */
+  .container .heroes .hero:nth-child(1) .image {
+    background-image: url('./image/주인공.png');
+  }
+  
+  .container .heroes .hero:nth-child(2) .image {
+    background-image: url('./image/duck.png');
+  }
+  
+  .container .heroes .hero:nth-child(3) .image {
+    background-image: url('./image/Mabel.png');
+  }
+  
+  .container .heroes .hero:nth-child(4) .image {
+    background-image: url('./image/apple.png');
+  }
+  
+  .container .heroes .hero:nth-child(5) .image {
+    background-image: url('./image/여울.png');
+  }
+  
+  .container .heroes .hero:nth-child(6) .image {
+    background-image: url('./image/코끼리.png');
+  }
+  
+  .container .heroes .hero:nth-child(7) .image {
+    background-image: url('./image/Weber.png');
+  }
+  
+  .container .heroes .hero:nth-child(8) .image {
+    background-image: url('./image/person.png');
+    background-position: top;
+  }
+  
+  .container .heroes .hero:nth-child(9) .image {
+    background-image: url('./image/ccc.png');
+    background-position: top;
+
+  }
+  
+  .container .heroes .hero:nth-child(10) .image {
+    background-image: url('./image/ddog.png');
+    width: 150px;
+    background-position: top;
+  }
+  
+  .container .heroes .hero:nth-child(11) .image {
+    background-image: url('./image/frog.png');
+    width: 70px;
+    background-position: top;
+  }
+  
+  .container .heroes .hero:nth-child(12) .image {
+    background-image: url('./image/pig.png');
+    width: 80px;
+    background-position: top;
+  }
+  
+  .container .heroes .hero:nth-child(13) .image {
+    background-image: url('./image/tree.png');
+  }
+  
+  .container .heroes .hero:nth-child(14) .image {
+    background-image: url('./image/tree.png');
+  }
+  
+  .container .heroes .hero:nth-child(15) .image {
+    background-image: url('./image/tree.png');
+  }
+  
+  .container .heroes .hero:nth-child(16) .image {
+    background-image: url('./image/tree.png');
+  }
+  
+  .container .heroes .hero:nth-child(17) .image {
+    background-image: url('./image/tree.png');
+  }
+  
+  .container .heroes .hero:nth-child(18) .image {
+    background-image: url('./image/tree.png');
+  }
+  
+  .container .heroes .hero:nth-child(19) .image {
+    background-image: url('./image/tree.png');
+  }
+  
+  .container .heroes .hero:nth-child(20) .image {
+    background-image: url('./image/tree.png');
+  }
+  
+  .container .heroes .hero:nth-child(21) .image {
+    background-image: url('./image/tree.png');
+  }
+  
+  .container .heroes .hero:nth-child(22) .image {
+    background-image: url('./image/tree.png');
+  }
+  
+  .container .heroes .hero:nth-child(23) .image {
+    background-image: url('./image/tree.png');
+  }
+  
+  .container .heroes .hero:nth-child(24) .image {
+    background-image: url('./image/tree.png');
+  }
+  
+  .container .heroes .hero:nth-child(25) .image {
+    background-image: url('./image/tree.png');
+  }
+  
+  .container .heroes .hero:nth-child(26) .image {
+    background-image: url('./image/tree.png');
+  }
+  
+  .container .heroes .hero:nth-child(27) .image {
+    background-image: url('./image/tree.png');
+  }
+  
+  .container .heroes .hero:nth-child(28) .image {
+    background-image: url('./image/tree.png');
+  }
+  
+  .container .heroes .hero:nth-child(29) .image {
+    background-image: url('./image/tree.png');
+  }
+  
+  .container .heroes .hero:nth-child(30) .image {
+    background-image: url('./image/tree.png');
+  }
+  
+  .container .heroes .hero:nth-child(31) .image {
+    background-image: url('./image/tree.png');
+  }
+  
+  .container .heroes .hero:nth-child(32) .image {
+    background-image: url('./image/tree.png');
+  }
+ 
+  
