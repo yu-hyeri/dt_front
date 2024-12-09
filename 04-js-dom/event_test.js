@@ -30,7 +30,7 @@
 
 //     // 2. h2 텍스트와 색상 변경
 //     const textRandomColor = getRandomColor(); // 함수 호출
-    
+
 //     h2.textContent = `Random Color: ${textRandomColor}`;
 // });
 
@@ -39,5 +39,34 @@
 
 
 
-
 ///////////////////// 실습-2 //////////////////////
+// 폼 이벤트
+// document.addEventListener('DOMContentLoaded', () => {
+//     const form = document.querySelector('form');
+//     const commentList = document.querySelector('.comment-list');
+  
+//     form.addEventListener('submit', (e) => {
+//       e.preventDefault(); // 폼 제출로 인한 페이지 새로고침 방지
+  
+//       // 아이디와 댓글 값을 가져오기
+//       const userIdInput = document.querySelector('#userid');
+//       const commentInput = document.querySelector('#comment');
+//       const userId = userIdInput.value.trim();
+//       const comment = commentInput.value.trim();
+  
+//       // 아이디와 댓글이 비어 있지 않은 경우에만 처리
+//       if (userId !== '' && comment !== '') {
+//         // 새로운 <li> 태그 생성
+//         const newComment = document.createElement('li');
+//         newComment.innerHTML = `<b>${userId}</b> - ${comment}`;
+  
+//         // <ul>에 새로운 <li> 추가
+//         commentList.appendChild(newComment);
+  
+//         // 입력 필드 초기화
+//         userIdInput.value = '';
+//         commentInput.value = '';
+//       }
+//     });
+//   });
+  
