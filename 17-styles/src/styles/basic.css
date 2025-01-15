@@ -1,0 +1,27 @@
+.basicButton {
+    background-color: blue;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+.BasicCss-btn {
+    background-color: rgb(154, 154, 255);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+.BasicCss__title--red {
+    color: red;
+}
+
+.BasicCss header {
+    background-color: lightblue;
+}
+
+.BasicCss h1 {
+    color: blue;
+}

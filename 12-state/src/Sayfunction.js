@@ -28,4 +28,4 @@ export const Sayfunction = () => {
             <h1>{message}</h1>
         </>
     );
-    
+}
